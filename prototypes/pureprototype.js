@@ -38,15 +38,15 @@ Array.prototype.heyHitesh = function() {
 heroPower.hitesh(); ///this is not present in the property 
 
 
-// console.log(heroPower); //=>o/p this is not present in the property
+ console.log(heroPower); //=>o/p this is not present in the property
 
 // now checking that if the myHero[] has also .hitesh() which we provided manaually to top level Object
-// myHero.hitesh();
+/myHero.hitesh();
 
-// myHero.heyHitesh();     //o/p => Hitesh says hello 
+ myHero.heyHitesh();     //o/p => Hitesh says hello 
 //here we assign property to low-levelv ie array but not to the top level so
 
-// heroPower.heyHitesh();    //it will generate Eror as not having access to it
+ heroPower.heyHitesh();    //it will generate Eror as not having access to it
 // so we have access the top-level hierarchy i.e of object then we addded new property to it
 // pro assing to array wont ne access ny
 
